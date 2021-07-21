@@ -14,7 +14,7 @@ done
 echo adding links
 sed "36a ${allposts}" index.html -i
 
-[ $1 != "" ] && exit
+#[ $1 != "" ] && exit
 
 echo pushing repo
 git add .
