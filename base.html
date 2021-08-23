@@ -5,38 +5,68 @@
 
 	<style>
 
-		a:link, a:visited {
-		  background-color: green;
-		  color: black;
-		  padding: 3px 7px;
-		  text-align: center;
-		  text-decoration: none;
-		  display: inline-block;
+		div {
+			font-family: courier;
+			font-size: 150%;
+		}
+		
+		.navbar {
+		  overflow: hidden;
+		  background-color: black;
+		  position: fixed;
+		  top: 0;
+		  width: 100%;
 		}
 
-		a:hover, a:active {
-		  background-color: lightgreen;
+		.navbar a {
+		  float: left;
+		  display: block;
+		  color: lightgreen;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;	  
 		}
+
+		.navbar a:hover {
+		  background: green;
+		  color: lightgreen;
+		}
+		
+		.main {
+		background-color: black;
+		color: lightgreen;
+		}
+		
+		.main a {
+		  color: green;
+		}
+
+		.main a:hover {
+		  color: lightgreen;
+		}
+		
 	</style>
 
 	<title>GEDE</title>
 </head>
 
-<body style="background-color:black; color:lightgreen; font-family:courier;  font-size:150%;">
-
-	<h1> >_ </h1>
-
-	<p>
-    		<a href="https://www.instagram.com/gabovinazza">📷️ istagram</a>
-		<a href="https://cafecito.app/gabovinazza">☕️ cafecito</a>
-		<a href="music.html">🎧️ música</a>
-		<a href="https://www.youtube.com/c/gabrielvinazza/videos">🎬️ youtube</a>
-		<a href="https://github.com/gabochi">💾️ código</a>
-		<a href="usar-pollo-con-polea.pdf">📕️ libro</a>
-	</p>
 
 
-</body>
+<div class="navbar">
+	<a href="#main"> >_ </a>
+	<a href="https://www.instagram.com/gabovinazza">📷️ ins </a>
+	<a href="https://cafecito.app/gabovinazza">☕️ cfc </a>
+	<a href="https://gede1.bandcamp.com">🎧️ msc </a>
+	<a href="https://www.youtube.com/c/gabrielvinazza/videos">🎬️ ytb </a>
+	<a href="https://github.com/gabochi">💾️ cod </a>
+	<a href="usar-pollo-con-polea.pdf">📕️ lib </a>
+</div>
+
+<div class="main" id="main"><br><br>
+
+
+
+</div>
 
 </html>
 
