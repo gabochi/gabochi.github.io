@@ -1,5 +1,3 @@
 # gabochi.github.io
-a minimalistic site
+a minimalistic link-tree-like site
 
-## Updates
-just add more posts in the posts folder and run **update.sh**
